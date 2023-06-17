@@ -1,0 +1,90 @@
+.OuterContainer {
+  width: 99%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.InputContainer {
+  display: flex;
+  width: 99%;
+  height: 100%;
+  margin-top: 3%;
+  border-radius: 6px;
+  margin-right: 2px;
+
+  padding-left: 12px;
+  /* font-family: "DM Sans", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #bbb9bc67;
+  border: 2px solid rgba(128, 128, 128, 0.388);
+}
+
+::placeholder {
+  color: #bbb9bc;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.ErrorInput {
+  display: flex;
+  width: 99%;
+  height: 60%;
+  margin-top: 3%;
+  border-radius: 6px;
+  margin-right: 2px;
+  padding-left: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #bbb9bc;
+  border: 2px solid red;
+  outline: none;
+}
+
+.NameError {
+  display: flex;
+  color: red;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  /* border: 2px solid black; */
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
+
+.NumberError {
+  display: flex;
+  color: red;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  /* border: 2px solid black; */
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
+
+.CombineError {
+  display: flex;
+  color: red;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  /* border: 2px solid black; */
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
+
+.CombineErrors {
+  display: flex;
+  color: red;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  /* border: 2px solid black; */
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  position: relative;
+  left: 20%;
+}

@@ -1,0 +1,30 @@
+.LeftPanelContainer {
+  display: flex;
+  width: 70%;
+  /* border: 2px solid rgb(136, 0, 255); */
+  flex-direction: row;
+}
+
+.SideImage {
+  display: flex;
+  /* border: 2px solid rgb(128, 255, 0); */
+  width: 50%;
+}
+
+.LeftPanelContainer_Image {
+  height: 100%;
+  width: 100%;
+  background: url("./../../Assets//LeftPanel.png");
+  /* border: 2px solid blue; */
+}
+
+/*Container*/
+
+.CardLayouts {
+  display: flex;
+  /* border: 2px solid red; */
+  position: relative;
+  width: 76%;
+  right: 25%;
+  flex-direction: column;
+}

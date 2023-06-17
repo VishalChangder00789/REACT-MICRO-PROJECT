@@ -1,0 +1,7 @@
+.TitleContainer {
+  display: flex;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: grey;
+  margin-top: 2%;
+}
